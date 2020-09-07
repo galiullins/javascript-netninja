@@ -1,15 +1,11 @@
-// single line comment
-// the first alert
-alert('Hello Javascript'); //this is a statement. Each statement ends with semicolon
+var myAge = 10;
 
-// the second alert
-/*
-alert('Hello Javascript');
-
-- Javascript is case sensitive
-- Contains many statements, all ending with a semicolon ;
-- Not sensitive to whitespace or the breaks
-- Javascripts runs from top to bottom
-- Write one-line comments using //
-- Write multi line comments using /**/
-*/ 
+if (myAge > 30) {
+    document.write("You are over thirty");
+} else if ( myAge > 20) {
+    document.write("You are over twenty");
+} else if ( myAge > 10) {
+    document.write("You are over ten");
+} else {
+     document.write("You are too young");
+}
