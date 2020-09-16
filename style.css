@@ -1,0 +1,36 @@
+body{
+    background: #eee;
+}
+
+#content{
+    width: 400px;
+    padding: 20px;
+    background: #fff;
+    padding-top: 0px;
+    font-family: calibri;
+    font-size: 18px;
+    color: #444;
+    margin: 0 auto;
+    max-height: 270px;
+    overflow: hidden;
+    transition: max-height 2.0s;
+}
+
+#content.open{
+    max-height: 1000px;
+    transition: max-height 2.0s;
+}
+
+#show-more{
+    background: #1594e5;
+    color:#fff;
+    font-family: calibri;
+    display: block;
+    width: 140px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
