@@ -70,6 +70,11 @@ function setUpEvents(){
                 button.innerHTML = "show less"
         }
     };
+
+    var myForm = document.forms.myForm;
+    myForm.name.onfocus = function(){
+        myForm.name.style.border= "solid 4px pink";
+    };
 }
 
 window.onload = function(){
