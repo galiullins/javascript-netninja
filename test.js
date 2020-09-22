@@ -75,8 +75,17 @@ function setUpEvents(){
     myForm.name.onfocus = function(){
         myForm.name.style.border= "solid 4px pink";
     };
+
+    var myMessage = document.getElementById("message");
+
+        function showMessage(){
+            myMessage.className = "show";
+        }
+
+    setTimeout(showMessage, 2000);
 }
 
 window.onload = function(){
-    setUpEvents();
+    setUpEvents();    
 };
+
